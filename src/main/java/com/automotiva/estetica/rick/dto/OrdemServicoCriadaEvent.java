@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
 
-public record OrdemServicoCriadaResponse(
+public record OrdemServicoCriadaEvent(
         Long IdOrdemServico,
         String placaVeiculo,
         LocalDateTime dataAgendamento,
